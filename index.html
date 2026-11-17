@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পার্সোনাল পোর্টফোলিও</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%2322c55e'/><text x='50' y='53' font-size='52' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>রা</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <span class="nav-brand">ABDUR RAMAN</span>
+        <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+        <ul class="nav-list">
+            <li><a href="#home">হোম</a></li>
+            <li><a href="#about">আমার সম্পর্কে</a></li>
+            <li><a href="#skills">দক্ষতা</a></li>
+            <li><a href="#work">কাজ</a></li>
+            <li><a href="#contact">যোগাযোগ</a></li>
+        </ul>
+        <button id="darkModeToggle" class="btn-dark-toggle" title="ডার্ক মোড">🌙</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero reveal">
+        <div class="hero-inner">
+            <div class="hero-image">
+                <img src="photo.jpg" alt="প্রোফাইল ছবি" onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 200 200\'><rect width=\'200\' height=\'200\' fill=\'%231565C0\'/><circle cx=\'100\' cy=\'75\' r=\'38\' fill=\'white\' opacity=\'0.9\'/><path d=\'M35,175 C35,130 65,115 100,115 C135,115 165,130 165,175 Z\' fill=\'white\' opacity=\'0.9\'/></svg>'">
+            </div>
+            <div class="hero-content">
+                <h1 class="name">ABDUR RAMAN</h1>
+                <p class="tagline">নন্দীগ্রাম নিউ মার্কেট, নন্দীগ্রাম, বগুড়া</p>
+                <a href="#contact" class="btn-primary">যোগাযোগ করুন</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <h2>আমার সম্পর্কে</h2>
+        <p>
+            আমি গত নয় বছর ধরে গার্মেন্টস ব্যবসা করি, আর এখন অনলাইন ব্যবসা করি ও বিভিন্ন দোকানের সফটওয়্যার তৈরি করি।
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+        <h2>দক্ষতা</h2>
+        <ul class="skills-list">
+            <li>Microsoft Office</li>
+            <li>ক্যানভা</li>
+            <li>ইংরেজি</li>
+            <!-- প্রয়োজনমতো আরও যোগ করুন -->
+        </ul>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section reveal">
+        <h2>কাজের নমুনা</h2>
+        <div class="card-container">
+            <!-- Card ১ -->
+            <div class="card">
+                <img src="work1.jpg" alt="দোকানের সফটওয়্যার" onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 250\'><rect width=\'400\' height=\'250\' fill=\'%231565C0\'/><rect x=\'80\' y=\'40\' width=\'240\' height=\'150\' rx=\'10\' fill=\'%23ffffff\' opacity=\'0.15\'/><rect x=\'100\' y=\'60\' width=\'200\' height=\'20\' rx=\'4\' fill=\'%23ffffff\' opacity=\'0.4\'/><rect x=\'100\' y=\'95\' width=\'120\' height=\'14\' rx=\'4\' fill=\'%2322c55e\'/><rect x=\'100\' y=\'120\' width=\'160\' height=\'12\' rx=\'3\' fill=\'%23ffffff\' opacity=\'0.6\'/><rect x=\'100\' y=\'142\' width=\'90\' height=\'12\' rx=\'3\' fill=\'%23ffffff\' opacity=\'0.6\'/></svg>'">
+                <h3>দোকানের সফটওয়্যার তৈরি</h3>
+                <p>দোকান ও ব্যবসা প্রতিষ্ঠানের জন্য সহজ হিসাব-নিকাশ, বিলিং ও স্টক ম্যানেজমেন্টের নির্ভরযোগ্য সফটওয়্যার।</p>
+            </div>
+            <!-- Card ২ -->
+            <div class="card">
+                <img src="work2.jpg" alt="গার্মেন্টস ব্যবসা" onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 250\'><rect width=\'400\' height=\'250\' fill=\'%232e7d32\'/><circle cx=\'200\' cy=\'125\' r=\'60\' fill=\'%23ffffff\' opacity=\'0.15\'/><path d=\'M160,85 L185,110 L215,110 L240,85 L260,105 L235,125 L235,175 L165,175 L165,125 L140,105 Z\' fill=\'%23ffffff\' opacity=\'0.9\'/></svg>'">
+                <h3>গার্মেন্টস ও পোশাক ব্যবসা</h3>
+                <p>গত নয় বছর ধরে বিশ্বস্ততার সাথে মানসম্মত পোশাক ও গার্মেন্টস সামগ্রীর পাইকারি ও খুচরা সরবরাহ।</p>
+            </div>
+            <!-- Card ৩ -->
+            <div class="card">
+                <img src="work3.jpg" alt="অনলাইন ব্যবসা" onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 400 250\'><rect width=\'400\' height=\'250\' fill=\'%23e65100\'/><circle cx=\'200\' cy=\'125\' r=\'60\' fill=\'%23ffffff\' opacity=\'0.15\'/><path d=\'M150,85 L165,85 L180,140 L235,140 L250,100 L175,100 M185,160 A8,8 0 1,1 185,159 M230,160 A8,8 0 1,1 230,159\' stroke=\'%23ffffff\' stroke-width=\'6\' fill=\'none\' stroke-linecap=\'round\' stroke-linejoin=\'round\'/></svg>'">
+                <h3>অনলাইন ব্যবসা ও ই-কমার্স</h3>
+                <p>গ্রাহকের দোরগোড়ায় গুণগত মানের পণ্য পৌঁছে দেওয়ার জন্য ডিজিটাল প্ল্যাটফর্মে পরিচালিত অনলাইন ব্যবসা।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+        <h2>যোগাযোগ করুন</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="নাম" required>
+            <input type="email" name="email" placeholder="ইমেইল" required>
+            <textarea name="message" placeholder="মেসেজ" rows="4" required></textarea>
+            <button type="submit" class="btn-primary">পাঠান</button>
+            <a href="#" id="emailFallback" class="email-fallback">অথবা ইমেইলে পাঠান ✉️</a>
+        </form>
+        <!-- ধন্যবাদ বার্তা (hidden by default) -->
+        <div id="thankYouMsg" class="thank-you-msg" style="display:none;">
+            ✅ ধন্যবাদ! আপনার মেসেজ সফলভাবে পাঠানো হয়েছে।
+        </div>
+        <div class="social-links">
+            <a href="tel:+8801918100330">📞 ফোন</a>
+            <a href="mailto:abr100330@gmail.com">✉️ ইমেইল</a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">📘 Facebook</a>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8801918100330" target="_blank" class="whatsapp-btn" title="WhatsApp-এ মেসেজ করুন">
+        💬
+    </a>
+
+    <!-- Card Modal Popup (কাজের কার্ড পপআপ) -->
+    <div id="cardModal" class="card-modal" aria-hidden="true">
+        <div class="card-modal-content">
+            <button class="card-modal-close" id="cardModalClose" aria-label="বন্ধ করুন">&times;</button>
+            <img id="modalImg" src="" alt="কাজের ছবি">
+            <div class="card-modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
